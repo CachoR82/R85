@@ -7,9 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 16px;
+      margin: 0 8px;
       font-size: clamp(8px, 5vw, 20px);
       line-height: 1.4;
       background-color: #ffffff;
@@ -70,40 +68,26 @@
 
   <p>Una prueba:</p>
 
-<table style="border-collapse:collapse; width:100%;">
+<style>
+  table { width:100%; border-collapse:collapse; }
+  th, td { border:1px solid #aaa; padding:0 4px; text-align:left; }
+  th { background-color:#f4f4f4; }
+</style>
+
+<table>
   <thead>
     <tr>
-      <th style="border:1px solid #000000; text-align:center; width:15%;">ID</th>
-      <th style="border:1px solid #000000; text-align:center; width:24%;">Título</th>
-      <th style="border:1px solid #000000; text-align:center; width:20%;">Fecha</th>
-      <th style="border:1px solid #000000; text-align:center; width:41%;">Adelanto</th>
+      <th style="width:12%;">ID</th>
+      <th style="width:28%;">Título</th>
+      <th style="width:20%;">Fecha</th>
+      <th style="width:40%;">Adelanto</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="border:1px solid #000000; margin:0 4px;">COM004</td>
-      <td style="border:1px solid #000000; margin:0 4px;">Arreglo de cañerías</td>
-      <td style="border:1px solid #000000; margin:0 4px; text-align:right;">2/Apr/2026</td>
-      <td style="border:1px solid #000000; margin:0 4px;">Se realizará el próximo martes 7 de abril.</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #000000; margin:0 4px;">COM003</td>
-      <td style="border:1px solid #000000; margin:0 4px;">CABA eliminará las cabinas de peaje de cobro manual</td>
-      <td style="border:1px solid #000000; margin:0 4px; text-align:right;">1/Apr/2026</td>
-      <td style="border:1px solid #000000; margin:0 4px;">Desde el 1 de mayo ya no quedarán cabinas para pago en efectivo en las autopistas porteñas</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #000000; margin:0 4px;">COM002</td>
-      <td style="border:1px solid #000000; margin:0 4px;">Arreglo de cañerías</td>
-      <td style="border:1px solid #000000; margin:0 4px; text-align:right;">14/Mar/2026</td>
-      <td style="border:1px solid #000000; margin:0 4px;">Se realizará el próximo 20 de marzo.</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #000000; margin:0 4px;">COM001</td>
-      <td style="border:1px solid #000000; margin:0 4px;">Nuevo horario ascensores</td>
-      <td style="border:1px solid #000000; margin:0 4px; text-align:right;">7/Mar/2026</td>
-      <td style="border:1px solid #000000; margin:0 4px;">A partir del lunes 7 de abril.</td>
-    </tr>
+    <tr><td>COM004</td><td>Arreglo de cañerías</td><td>2/Apr/2026</td><td>Se realizará el próximo martes 7 de abril.</td></tr>
+    <tr><td>COM003</td><td>CABA eliminará las cabinas de peaje de cobro manual</td><td>1/Apr/2026</td><td>Desde el 1 de mayo ya no quedarán cabinas para pago en efectivo en las autopistas porteñas</td></tr>
+    <tr><td>COM002</td><td>Arreglo de cañerías</td><td>14/Mar/2026</td><td>Se realizará el próximo 20 de marzo.</td></tr>
+    <tr><td>COM001</td><td>Nuevo horario ascensores</td><td>7/Mar/2026</td><td>A partir del lunes 7 de abril.</td></tr>
   </tbody>
 </table>
 
