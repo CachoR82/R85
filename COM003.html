@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COM003 - CABA eliminará las cabinas de peaje de cobro manual</title>
   <style>
+    html {
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0 8px 80px 8px;
+    }
     body {
       font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 16px;
-      font-size: clamp(14px, 4vw, 18px);
+      margin: 0 8px;
+      font-size: clamp(14px, 4vw, 20px);
       line-height: 1.4;
       background-color: #ffffff;
+      color: #000000;
+      min-height: 100%;
     }
     h1 {
       font-size: clamp(24px, 6vw, 32px);
@@ -24,23 +29,6 @@
       margin-bottom: 20px;
       border-bottom: 1px solid #cccccc;
       padding-bottom: 8px;
-    }
-    p, li {
-      margin: 0 0 11px 0;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .volver {
-      margin-top: 24px;
-      font-size: clamp(12px, 3vw, 14px);
-    }
-    .volver a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    .volver a:hover {
-      text-decoration: underline;
     }
     .imagen-texto {
       width: 100%;
@@ -62,13 +50,35 @@
     .imagen-texto img {
       width: 100%;
     }
+    .volver {
+      margin-top: 24px;
+      font-size: clamp(12px, 3vw, 14px);
+    }
+    .volver a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .volver a:hover {
+      text-decoration: underline;
+    }
+    @media (min-width: 1024px) {
+      html {
+        background-color: #2e0854;
+      }
+      body {
+        max-width: 60%;
+        margin: 0 auto; /* Centrado de la columna blanca */
+        padding: 0 8px 80px 8px; /* 80px de aire blanco al final del scroll */
+      }
+    }
   </style>
 </head>
 <body>
   <h1>CABA eliminará las cabinas de peaje de cobro manual</h1>
   <div class="referencia">COM003 - Publicado: 01 de abr de 2026</div>
 
-  <p>En el marco de la transformación del sistema de movilidad urbana, <strong>AUSA confirmó que la totalidad de sus trazas pasarán a operar bajo el esquema de Free Flow</strong>, un sistema que permite circular sin detenerse, ya que el cobro se realiza de manera electrónica (a través del TelePASE obligatorio).</p>
+<!-- 👇👇👇👇👇👇 -->
+    <p>En el marco de la transformación del sistema de movilidad urbana, <strong>AUSA confirmó que la totalidad de sus trazas pasarán a operar bajo el esquema de Free Flow</strong>, un sistema que permite circular sin detenerse, ya que el cobro se realiza de manera electrónica (a través del TelePASE obligatorio).</p>
 
 <img src="imagenes/img003-1.jpg" alt="Autopista Dellepiane Free Flow" style="width:60%; display:block; margin:12px auto 0 auto;">
 
@@ -77,6 +87,7 @@
 <p>Se recomienda a los conductores que aún no cuentan con el dispositivo TelePASE gestionar su adhesión con antelación para evitar contratiempos.</p>
 
 <p><strong>Administración del Consorcio</strong></p>
+<!-- ☝️☝️☝️☝️☝️☝️ -->
 
   <div class="volver">
     <a href="index.html">← Volver a todas las comunicaciones</a>
