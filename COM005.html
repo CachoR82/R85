@@ -8,7 +8,7 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0 8px;
-      font-size: clamp(8px, 5vw, 20px);
+      font-size: clamp(14px, 4vw, 20px);
       line-height: 1.4;
       background-color: #ffffff;
     }
@@ -43,18 +43,6 @@
     .imagen-texto img {
       width: 100%;
     }
-    .datos {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    .datos th, .datos td {
-      border: 1px solid #aaa;
-      padding: 0 4px;
-      text-align: left;
-    }
-    .datos th {
-      background-color: #f4f4f4;
-    }
     .volver {
       margin-top: 24px;
       font-size: clamp(12px, 3vw, 14px);
@@ -72,26 +60,99 @@
   <h1>Una prueba más...</h1>
   <div class="referencia">COM005 - Publicado: 02 de abr de 2026</div>
 
-  <p>Una prueba:</p>
+  <p><u>Tabla:</u></p>
+
+<style>
+  .datos {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .datos th, .datos td {
+    border: 1px solid #aaa;
+    padding: 0 2px;
+    font-size: clamp(7px, 3vw, 14px);
+  }
+  .datos th {
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  .datos td {
+    text-align: left;
+  }
+</style>
 
 <table class="datos">
   <thead>
     <tr>
-      <th style="width:12%;">ID</th>
-      <th style="width:28%;">Título</th>
-      <th style="width:20%;">Fecha</th>
-      <th style="width:40%;">Adelanto</th>
+      <th style="width:29%;">Date</th>
+      <th style="width:14%;">Open</th>
+      <th style="width:14%;">High</th>
+      <th style="width:14%;">Low</th>
+      <th style="width:14%;">Close</th>
+      <th style="width:15%;">Volume</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>COM004</td><td>Arreglo de cañerías</td><td>2/Apr/2026</td><td>Se realizará el próximo martes 7 de abril.</td></tr>
-    <tr><td>COM003</td><td>CABA eliminará las cabinas de peaje de cobro manual</td><td>1/Apr/2026</td><td>Desde el 1 de mayo ya no quedarán cabinas para pago en efectivo en las autopistas porteñas</td></tr>
-    <tr><td>COM002</td><td>Arreglo de cañerías</td><td>14/Mar/2026</td><td>Se realizará el próximo 20 de marzo.</td></tr>
-    <tr><td>COM001</td><td>Nuevo horario ascensores</td><td>7/Mar/2026</td><td>A partir del lunes 7 de abril.</td></tr>
+    <tr>
+      <td style="text-align:right;">2/Apr/26 13:30:00</td>
+      <td style="text-align:right;">129.64</td>
+      <td style="text-align:right;">132.69</td>
+      <td style="text-align:right;">127.30</td>
+      <td style="text-align:right;">132.26</td>
+      <td style="text-align:right;">2,987,297</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">1/Apr/26 13:30:00</td>
+      <td style="text-align:right;">129.83</td>
+      <td style="text-align:right;">131.01</td>
+      <td style="text-align:right;">125.02</td>
+      <td style="text-align:right;">129.05</td>
+      <td style="text-align:right;">4,398,700</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">31/Mar/26 13:30:00</td>
+      <td style="text-align:right;">128.88</td>
+      <td style="text-align:right;">131.41</td>
+      <td style="text-align:right;">127.38</td>
+      <td style="text-align:right;">129.92</td>
+      <td style="text-align:right;">3,318,700</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">30/Mar/26 13:30:00</td>
+      <td style="text-align:right;">124.60</td>
+      <td style="text-align:right;">129.92</td>
+      <td style="text-align:right;">124.60</td>
+      <td style="text-align:right;">128.77</td>
+      <td style="text-align:right;">3,590,000</td>
+    </tr>
   </tbody>
 </table>
 
-<p style="margin-top:16px;">Ya veremos…</p>
+<p style="margin-top:16px;"><u>Imagen:</u></p>
+
+<style>
+  .imagen-sola {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+  }
+  .imagen-sola td {
+    text-align: center;
+  }
+  .imagen-sola img {
+    width: 60%;
+  }
+</style>
+
+<table class="imagen-sola">
+  <tr>
+    <td>
+      <img src="https://c-a8.github.io/R85/imagenes/img003-1.jpg" alt="Imagen de prueba">
+    </td>
+  </tr>
+</table>
+
+<p style="margin-top:16px;">Fin.</p>
 
   <div class="volver">
     <a href="index.html">← Volver a todas las comunicaciones</a>
