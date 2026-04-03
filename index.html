@@ -5,12 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Novedades y Comunicaciones</title>
   <style>
+    html {
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
     body {
       font-family: Arial, sans-serif;
       margin: 0 8px;
       font-size: clamp(14px, 4vw, 20px);
       line-height: 1.4;
       background-color: #ffffff;
+      color: #000000;
+      min-height: 100%;
     }
     h1 {
       font-size: clamp(24px, 6vw, 32px);
@@ -34,6 +42,25 @@
       border: none;
       border-top: 1px solid #ddd;
       margin: 16px 0;
+    }
+    .volver {
+      margin-top: 24px;
+      font-size: clamp(12px, 3vw, 14px);
+    }
+    .volver a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    @media (min-width: 1024px) {
+      html {
+        background-color: #2e0854;
+      }
+      body {
+        max-width: 60%;
+        margin: 0 auto;
+        min-height: 100vh;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      }
     }
   </style>
 </head>
