@@ -5,12 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COM004 - Reunión informativa en el SUM</title>
   <style>
+    html {
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0 8px 80px 8px;
+    }
     body {
       font-family: Arial, sans-serif;
       margin: 0 8px;
       font-size: clamp(14px, 4vw, 20px);
       line-height: 1.4;
       background-color: #ffffff;
+      color: #000000;
+      min-height: 100%;
     }
     h1 {
       font-size: clamp(24px, 6vw, 32px);
@@ -54,13 +61,24 @@
     .volver a:hover {
       text-decoration: underline;
     }
+    @media (min-width: 1024px) {
+      html {
+        background-color: #2e0854;
+      }
+      body {
+        max-width: 60%;
+        margin: 0 auto; /* Centrado de la columna blanca */
+        padding: 0 8px 80px 8px; /* 80px de aire blanco al final del scroll */
+      }
+    }
   </style>
 </head>
 <body>
   <h1>Reunión informativa en el SUM</h1>
   <div class="referencia">COM004 - Publicado: 13 de mar de 2026</div>
 
-  <p><u>Buenas tardes:</u></p>
+<!-- 👇👇👇👇👇👇 -->
+    <p><u>Buenas tardes:</u></p>
 
 <table class="imagen-texto izquierda">
   <tr>
@@ -77,6 +95,7 @@
 <p style="margin-top:16px;">En cuanto reciba los presupuestos formales podremos llamar a <strong>Asamblea extraordinaria</strong>, pero antes quisiéramos poder conversar con todos los que puedan asistir.</p>
 
 <p>Esperamos contar con su presencia. Saludos y buen fin de semana.</p>
+<!-- ☝️☝️☝️☝️☝️☝️ -->
 
   <div class="volver">
     <a href="index.html">← Volver a todas las comunicaciones</a>
