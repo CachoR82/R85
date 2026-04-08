@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COM005 - Ascensores - Mal funcionamiento</title>
+  <style>
+    html {
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0 8px 80px 8px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0 8px;
+      font-size: clamp(14px, 4vw, 20px);
+      line-height: 1.4;
+      background-color: #ffffff;
+      color: #000000;
+      min-height: 100%;
+    }
+    h1 {
+      font-size: clamp(24px, 6vw, 32px);
+      margin-bottom: 8px;
+    }
+    .referencia {
+      font-size: clamp(12px, 3vw, 14px);
+      color: #666666;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #cccccc;
+      padding-bottom: 8px;
+    }
+    .imagen-texto {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+    }
+    .imagen-texto td {
+      vertical-align: top;
+    }
+    .col-imagen {
+      width: 45%;
+    }
+    .izquierda .col-imagen {
+      padding-right: 15px;
+    }
+    .derecha .col-imagen {
+      padding-left: 15px;
+    }
+    .imagen-texto img {
+      width: 100%;
+    }
+    .volver {
+      margin-top: 24px;
+      font-size: clamp(12px, 3vw, 14px);
+    }
+    .volver a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .volver a:hover {
+      text-decoration: underline;
+    }
+    @media (min-width: 1024px) {
+      html {
+        background-color: #2e0854;
+      }
+      body {
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 0 8px 80px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Ascensores - Mal funcionamiento</h1>
+  <div class="referencia">COM005 - Publicado: 02 de mar de 2026</div>
+
+<!-- 👇👇👇👇👇👇 -->
+
+<style>
+  /* Estilo para imagen izquierda - texto derecha */
+  .fila-imagen-texto {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin: 12px 0;
+  }
+  .fila-imagen-texto .col-imagen {
+    width: 30%;
+    flex-shrink: 0;
+  }
+  .fila-imagen-texto .col-imagen img {
+    width: 100%;
+    display: block;
+  }
+  .fila-imagen-texto .col-texto {
+    flex: 1;
+  }
+  .fila-imagen-texto .col-texto p {
+    margin-top: 0;
+  }
+  @media (max-width: 600px) {
+    .fila-imagen-texto {
+      flex-direction: column;
+    }
+    .fila-imagen-texto .col-imagen {
+      width: 100%;
+    }
+  }
+
+  /* Estilo para la tabla del conservador */
+  .tabla-conservador {
+    width: 70%;
+    margin: 8px auto;
+    border-collapse: collapse;
+    font-size: clamp(10px, 3vw, 16px);
+  }
+  .tabla-conservador th,
+  .tabla-conservador td {
+    border: 1px solid #aaa;
+    padding: 4px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .tabla-conservador td:first-child {
+    width: 50%;
+  }
+  .tabla-conservador td:last-child {
+    width: 50%;
+  }
+</style>
+
+<div class="fila-imagen-texto">
+  <div class="col-imagen">
+    <img src="imagenes/img005-1.jpg" alt="">
+  </div>
+  <div class="col-texto">
+    <p>Ante cualquier eventualidad que se produjese en el funcionamiento de los ascensores, favor de dar intervención a:</p>
+  </div>
+</div>
+
+<ul>
+  <li style="margin-bottom:12px;"><u><strong>Encargado (Sebastián):</strong></u>
+    <ul>
+      <li>💬 WhatsApp: +54 9 11 6765-2474</li>
+      <li>🕒 Horario:
+        <ul>
+          <li>Lu a Vi: De 7 a 12 hs y de 16 a 19 hs</li>
+          <li>Sá: De 7 a 12 hs</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li style="margin-bottom:12px;"><u><strong>Administradora (Ana):</strong></u>
+    <ul>
+      <li>💬 WhatsApp: +54 9 11 4156-7552</li>
+      <li>🕒 Horario:
+        <ul>
+          <li>Ma y Mi: De 15 a 17 hs</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><u><strong>Conservador:</strong></u></li>
+</ul>
+
+<!-- TABLA MODIFICADA: centrada, 70% ancho, columnas 50% cada una -->
+<table class="tabla-conservador">
+  <tbody>
+    <tr>
+      <td>Nombre</td>
+      <td>SEGUNDO PASCUAL FLORES</td>
+    </tr>
+    <tr>
+      <td>Domicilio Legal</td>
+      <td>LAVALLE 2862</td>
+    </tr>
+    <tr>
+      <td>Teléfono de Urgencia</td>
+      <td><strong style="background-color:#ff0000; color:#ffffff; font-size:larger;">11-3001-9408</strong></td>
+    </tr>
+    <tr>
+      <td>Teléfono Comercial</td>
+      <td>11-4033-9952</td>
+    </tr>
+  </tbody>
+<table>
+
+<!-- ☝️☝️☝️☝️☝️☝️ -->
+
+  <div class="volver">
+    <a href="index.html">← Volver a todas las comunicaciones</a>
+  </div>
+</body>
+</html>
